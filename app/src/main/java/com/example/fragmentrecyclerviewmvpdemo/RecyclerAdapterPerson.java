@@ -18,11 +18,9 @@ public class RecyclerAdapterPerson extends RecyclerView.Adapter<RecyclerAdapterP
 
     private List<Person> mPersonList;
 
-    private Context mContext;
 
-    public RecyclerAdapterPerson(Context context, List<Person> personList) {
+    public RecyclerAdapterPerson(List<Person> personList) {
         mPersonList = new ArrayList<Person>();
-        mContext = context;
         mPersonList = personList;
     }
 
